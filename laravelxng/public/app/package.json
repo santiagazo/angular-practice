@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Fireteam Success.",
+  "author": "Jay Lara DarkCherrySystems.com",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

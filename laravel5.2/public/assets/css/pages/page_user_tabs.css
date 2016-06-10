@@ -1,0 +1,23 @@
+.profile-status {
+  background-color: #173353;
+  padding: 5px 15px 8px 15px;
+  height: 50px;
+  color: #f7f7f7;
+  margin-bottom: 5px;
+}
+
+.profile-status .list-inline {
+  margin-top: 8px;
+}
+
+#main span.badge {
+    font-weight: 400;
+    padding: 4px 7px;
+    position: absolute;
+    top: -8px;
+    left: 33px;
+}
+
+.tab-v1 .nav {
+    margin-top: 20px;
+}

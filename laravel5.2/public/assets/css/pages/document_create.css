@@ -1,0 +1,128 @@
+.dropzone-box{
+			border: 2px solid #173353;
+			color: #173353;
+			padding: 10px;
+			margin-bottom: 10px;
+			overflow: hidden;
+			/*position: relative;*/
+		}
+
+		.dropzone-box h3{
+			color: #173353;
+		}
+
+		.dropzone-box h3 span{
+			font-size: 13px;
+			position: absolute;
+		}
+
+		.dropzone-box .fa.fa-plus-circle{
+			color: #173353;
+			display: block;
+		}
+
+		.hoverable{
+			min-height: 161px;
+		}
+
+		.dropzone-box.hoverable:hover{
+			padding: 20px;
+			background: #e7e7e7;
+			max-height: 175px;
+
+			-webkit-transition: max-height .8s;
+			-moz-transition: max-height .8s;
+			transition: max-height .8s;
+
+			-webkit-transition: padding .8s;
+			-moz-transition: padding .8s;
+			transition: padding .8s;
+		}
+
+		.uncompleted-form-section{
+			border: 1px solid #e1e1e1;
+			background: #e7e7e7;
+			padding: 15px;
+		}
+
+		.progress-section{
+			margin-bottom: 20px;
+		}
+		.completed-message{
+			display: none;
+			height: 40px !important;
+			border: 1px solid #e1e1e1 !important;
+			text-align: center;
+			padding: 7.5px;
+			background: #e7e7e7;
+			margin-bottom: 10px;
+		}
+
+		.verify-documents-previewer{
+			width: 100%;
+		    height: 100%;
+		    float: left;
+		    padding: 25px;
+		    box-sizing: border-box;
+		    background: #e7e7e7;
+		    border: 1px solid #e1e1e1;
+		}
+
+		.verify-documents-previewer img{
+			border: 1px solid #ccc;
+			background-color: #fff;
+			margin: 0 auto;
+		}
+
+		.verify-documents-underlayer{
+			position: relative;
+			top: 0px;
+			left: 0px;
+			height: 100%;
+		}
+
+		.verify-documents-cover{
+			position: absolute;
+		    bottom: 20%;
+		    left: 0;
+		    width: 100%;
+		    background: rgba(0, 0, 0, 0.5);
+		}
+
+		.verify-documents-info-box{
+			background: #fff;
+			border: 1px solid #ccc;
+			padding: 15px;
+			width: 80%;
+			min-height: 200px;
+			text-align: center;
+		}
+
+		.dropzone.dz-started{
+			background: rgba(0, 0, 0, 0.5);
+			color: #fff;
+		}
+
+		.dropzone.dz-started .dz-preview{
+			z-index: -2;
+			display: none !important;
+		}
+
+		.dropzone-message{
+			text-align: center;
+			padding: 20px;
+			color: #fff;
+		}
+
+		.dropzone-message .fa{
+			margin-top: 25px;
+			margin-bottom: 10px;
+		}
+
+		.dropzone-response{
+			display: none;
+		}
+
+		.dropzone-response.done{
+			display: block;
+		}

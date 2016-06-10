@@ -1,0 +1,94 @@
+/*------- USER NAV BAR DESIGN -------*/
+.sidenav {
+    float: left;
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+#main {
+    margin-left: 300px;
+    background-color: #eaeaea;
+    padding-top: 1px;
+    transition: margin-left .5s;
+    min-height: 800px;
+}
+
+#main .content-wrapper {
+    background: #fff;
+    margin: 10px 10px 0 10px;
+    padding: 15px 10px 15px 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .sidenav {padding-top: 86px;}
+}
+
+.nav-side-padding{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div.initials-circle {
+    margin-top : 10px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    background: #555;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    font-size: 1.5em;
+    color: #fff;
+}
+
+div.initials-circle .single {
+    margin-left: 9px;
+}
+
+div.initials-circle .double {
+    margin-left: 4px;
+    letter-spacing: -3px;
+}
+/*------- USER NAV BAR END -------*/
+
+
+.avatar-box{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    background: #173353;
+    padding-bottom: 10px;
+}
+
+.avatar-image-box {
+    vertical-align:top;
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.avatar-image-box img {
+    border: 1px solid #ddd;
+}
+
+.avatar-info-box {
+    vertical-align:top;
+    width: 50%;
+    color: #fff;
+    padding: 20px 10px 20px 0;
+    float: right;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+

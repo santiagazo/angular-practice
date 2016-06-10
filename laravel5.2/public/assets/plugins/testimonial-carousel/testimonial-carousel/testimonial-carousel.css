@@ -1,0 +1,159 @@
+#header-owl {
+	display: none;
+}
+
+#header-owl .item{
+  margin: 3px;
+}
+#header-owl .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.before-after-owl {
+	width: 103%;
+	height: 35px;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -20px;
+	border-top: 30px solid #173353;
+}
+
+#header-owl {
+	position: absolute;
+	z-index: 16;
+	top: -20px;
+	width: 99%;
+	max-height: 150px;
+}
+
+@media(max-width: 1600px){
+	#header-owl {
+		width: 98.5%;
+	}
+}
+
+@media(max-width: 1235px ) and (min-width: 1180px){
+	#header-owl {
+		width: 98%;
+	}
+}
+
+@media(max-width: 1180px ) and (min-width: 845px){
+	#header-owl {
+		width: 97.5%;
+	}
+}
+
+@media(max-width: 845px ) and (min-width: 845px){
+	#header-owl {
+		width: 97%;
+	}
+}
+
+.realPeople {
+	position: absolute;
+	top: 55px;
+	left: 25%;
+	color: white;
+	font-size: 5vw;
+	z-index: 17;
+	text-shadow: 1px 4px 4px #333;
+	white-space: nowrap;
+}
+
+
+@media(min-width: 1650px){
+	.realPeople {
+		position: absolute;
+		top: 48px;
+		left: 25%;
+		color: white;
+		font-size: 4vw;
+		z-index: 17;
+		text-shadow: 1px 4px 4px #333;
+		white-space: nowrap;
+	}
+}
+
+/*find the div just after the slider and push it down so this fits.*/
+.before-after-owl + div{
+	margin-top: 145px;
+}
+
+.logo-left {
+  position: absolute;
+  width: 150px;
+  z-index: 17;
+  top: 0;
+  margin-left: -15px;
+
+}
+
+.tipso-mipso:hover {
+	cursor: pointer;
+}
+
+.tipso_bubble {
+    margin-top: -7px;
+}
+
+.mipso-body{
+	color: #333;
+}
+
+.masked {
+	opacity: .8;
+}
+
+.tipso_style {
+    cursor: inherit;
+    border-bottom: none;
+}
+
+.masked-text {
+	text-decoration: none;
+	text-align: center;
+	font-size: 9px;
+	color: #000;
+}
+
+.btn.masked-text {
+	border-right: 1px solid #C7C9CD;
+	border-top: 3px solid #f47f20;
+	border-bottom: 3px solid #173353;
+	background-color: #DBDBDA;
+	border-radius: 0;
+}
+
+.before-after-slider-text {
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: white;
+	width: 436px;
+	text-align: center;
+	opacity: .8;
+	color: #f47a20;
+}
+
+.masked-link {
+	color: #234FA7;
+}
+
+.center-image {
+	margin: 0 auto !important;
+}
+
+
+/*Testimonial Modal
+------------------------------------*/
+
+.testimonial-modal-img img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
